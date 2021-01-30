@@ -52,7 +52,7 @@ async def incoming_start_message_f(bot, update):
                     InlineKeyboardButton('Main group', url='https://t.me/project_mirror')
                 ],
                 [
-                    InlineKeyboardButton('Off topic', url='@projectmirrorot')
+                    InlineKeyboardButton('Off topic', url='https://t.me/projectmirrorot')
                 ]
             ]
         ),
@@ -60,7 +60,7 @@ async def incoming_start_message_f(bot, update):
     )
     
 async def incoming_compress_message_f(bot, update):
-  """/compress command"""
+  """/compress command""""
 
   if update.reply_to_message is None:
     try:
